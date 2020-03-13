@@ -14,7 +14,7 @@ description: Election App
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -25,10 +25,13 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   flutter_speed_dial: ^1.2.5
+  flutter_map: ^0.8.2
+  latlong: ^0.6.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  package_info: ^0.4.0+3
   faker: ^1.2.1
 
 
